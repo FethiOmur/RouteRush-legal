@@ -34,6 +34,13 @@
   a.primary { color: #000; background: #fff; }
   a.ghost { color: #fff; background: var(--surface); border: 1px solid rgba(255,255,255,0.12); }
   a:hover { opacity: .85; }
+
+  @media (max-width: 480px) {
+    .card { padding: 32px 22px; }
+    .word { height: 58px; }
+    .links { width: 100%; }
+    .links a { flex: 1 1 140px; text-align: center; }
+  }
 </style>
 </head>
 <body>
