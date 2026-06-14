@@ -15,11 +15,6 @@
     --accent: #00E0FF;
     --rule: rgba(255,255,255,0.08);
   }
-  @font-face {
-    font-family: 'Splash';
-    src: url('./splash.ttf') format('truetype');
-    font-display: swap;
-  }
   * { box-sizing: border-box; }
   body {
     margin: 0; background: var(--bg); color: var(--text);
@@ -27,13 +22,12 @@
     line-height: 1.65; -webkit-font-smoothing: antialiased;
   }
   .wrap { max-width: 720px; margin: 0 auto; padding: 64px 22px 100px; }
-  .brand { text-align: center; margin-bottom: 20px; }
+  .brand { text-align: center; margin-bottom: 22px; }
   .brand .word {
-    font-family: 'Splash', cursive; font-size: 52px; color: #fff;
-    letter-spacing: 2px; line-height: 1;
-    text-shadow: 0 0 28px rgba(0,224,255,0.12);
+    height: 44px; width: auto;
+    filter: drop-shadow(0 0 22px rgba(0,224,255,0.14));
   }
-  h1 { font-size: 27px; font-weight: 300; letter-spacing: .3px; margin: 30px 0 4px; text-align: center; }
+  h1 { font-size: 27px; font-weight: 300; letter-spacing: .3px; margin: 26px 0 4px; text-align: center; }
   .meta { color: var(--text-3); font-size: 13px; text-align: center; margin: 0; }
   h2 { font-size: 18px; font-weight: 600; margin: 36px 0 10px; color: #fff; }
   p, li { color: var(--text-2); font-size: 15px; }
@@ -51,7 +45,7 @@
 <body>
 <div class="wrap">
   <div class="brand">
-    <div class="word">RouteRush</div>
+    <img class="word" src="./wordmark.png" alt="RouteRush">
   </div>
 
   <h1>Privacy Policy</h1>
