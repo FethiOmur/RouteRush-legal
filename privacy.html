@@ -56,7 +56,7 @@
   </div>
 
   <h1>Privacy Policy</h1>
-  <p class="meta">Last updated 14 June 2026</p>
+  <p class="meta">Last updated 11 July 2026</p>
   <hr class="rule">
 
   <p>RouteRush ("RouteRush", "we", "us") is a fitness app that records your runs and other
@@ -80,6 +80,11 @@
     anything you choose to share with clubs or other users.</li>
     <li><strong>AI coach conversations</strong> — if you use the AI coach, the messages you send
     are processed to generate a response.</li>
+    <li><strong>Voice data (optional)</strong> — if you turn on live voice coaching, your
+    microphone audio is streamed in real time during that run so the coach can hear you and
+    reply, and transcripts of the conversation are generated to power it. Voice coaching is off
+    by default and only activates after you give explicit consent in the app and grant iOS
+    microphone permission. RouteRush does not store your voice recordings on its servers.</li>
     <li><strong>Usage &amp; device data</strong> — basic app analytics and diagnostics (feature
     usage, crashes, device model, OS version) to keep the app working and improve it.</li>
     <li><strong>Subscriptions</strong> — purchases are handled by Apple. We receive your
@@ -102,6 +107,25 @@
   purposes. You can revoke Health access at any time in iOS Settings &rsaquo; Privacy &amp;
   Security &rsaquo; Health.</p>
 
+  <h2>Live voice coaching &amp; microphone</h2>
+  <p>Live voice coaching is an optional feature that lets you talk with the AI coach by voice
+  during a run. When (and only when) you have enabled it for a run, your microphone audio is
+  streamed in real time to <strong>Google LLC</strong> (the Gemini API) to understand your speech
+  and generate a spoken reply, together with basic live run stats (such as distance, pace, and
+  estimated calories) so the coach can answer questions about your run. This processing happens
+  under Google's Gemini API terms, with Google acting as our service provider.</p>
+  <ul>
+    <li>Voice coaching is <strong>off by default</strong> and never listens outside a run you
+    started with it enabled — there is no wake word and no always-on listening.</li>
+    <li>It activates only after your explicit in-app consent and the iOS microphone
+    permission.</li>
+    <li>RouteRush does <strong>not</strong> store your voice recordings on its servers, and voice
+    data is never used for advertising or sold.</li>
+    <li>You can turn voice coaching off at any time with the in-run toggle, withdraw consent in
+    the app's settings, or revoke microphone access in iOS Settings &rsaquo; Privacy &amp;
+    Security &rsaquo; Microphone.</li>
+  </ul>
+
   <h2>How information is shared</h2>
   <p>We do not sell your personal data. We share data only with service providers that help us
   run the app, and only as needed:</p>
@@ -110,8 +134,10 @@
     activities, and social data).</li>
     <li><strong>Apple</strong> — sign-in, HealthKit, and in-app subscription processing.</li>
     <li><strong>Mapbox</strong> — renders maps and route overlays.</li>
-    <li><strong>AI provider</strong> — when you use the AI coach, your messages are sent to a
-    third-party large-language-model provider to produce a reply.</li>
+    <li><strong>AI providers</strong> — when you use the AI coach, your messages are sent to a
+    third-party large-language-model provider to produce a reply; when you use live voice
+    coaching, your microphone audio and live run stats are processed by Google LLC (Gemini
+    API) as described above.</li>
     <li><strong>Analytics/diagnostics</strong> — aggregated usage and crash data to improve the
     app.</li>
   </ul>
